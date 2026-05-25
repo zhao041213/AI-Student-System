@@ -1,4 +1,4 @@
-# IKUN Manager
+# Student Manager
 <div align=center><img src="docs/logo.png"/></div>
 
 <div align=center>
@@ -230,7 +230,3 @@ IKUN_Manager/
 
 ## 开源许可
 [MIT License](LICENSE)
-
-## 联系方式
-- 作者: [chyinan]
-- Email: [chyinan2015@gmail.com]
