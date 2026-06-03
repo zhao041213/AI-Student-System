@@ -902,10 +902,10 @@ CREATE TABLE `user`  (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES (1, 'admin', '$2a$10$CjLJ2/QuOu3bZGzf3u4SGOvNjDSNdodT/5G.6TQFh.oUsj.MCideG', 'admin@test.com', NULL, 'avatar-1749983233259-9f544742.png', '2025-02-20 21:45:19', '2025-06-15 18:27:13', 'admin', NULL);
-INSERT INTO `user` VALUES (2, 'test', '$2b$10$MshDQphPxvIRK6mNiVd1f.8HhPV9ysV84hyUiRglzIzdXfuB0ETeC', 'test@example.com', NULL, NULL, '2025-02-20 21:45:19', '2025-04-06 02:07:25', 'student', NULL);
-INSERT INTO `user` VALUES (3, 'chyinan', '$2b$10$LeimjP0GK2OC9DObsO9WvuvHdksCwQsXNVA3uHNjIBadcuD3nBgb6', '1817175451@qq.com', NULL, 'avatar-3-1745847609124-586820353.png', '2025-02-20 21:51:36', '2025-04-28 21:40:09', 'student', NULL);
-INSERT INTO `user` VALUES (8, 'S2023001', '$2b$10$vvCCMqjv930BKa1I6IUYKeBt5HyDktViy/4unT.mQTAKfAHE1qczW', '1011@qq.com', NULL, NULL, '2025-06-04 22:48:28', '2025-06-06 15:11:42', 'student', '张伟');
+INSERT INTO `user` (`id`, `username`, `password`, `email`, `phone`, `avatar`, `create_time`, `update_time`, `role`, `display_name`) VALUES (1, 'admin', '$2a$10$CjLJ2/QuOu3bZGzf3u4SGOvNjDSNdodT/5G.6TQFh.oUsj.MCideG', 'admin@test.com', NULL, 'avatar-1749983233259-9f544742.png', '2025-02-20 21:45:19', '2025-06-15 18:27:13', 'admin', NULL);
+INSERT INTO `user` (`id`, `username`, `password`, `email`, `phone`, `avatar`, `create_time`, `update_time`, `role`, `display_name`) VALUES (2, 'test', '$2b$10$MshDQphPxvIRK6mNiVd1f.8HhPV9ysV84hyUiRglzIzdXfuB0ETeC', 'test@example.com', NULL, NULL, '2025-02-20 21:45:19', '2025-04-06 02:07:25', 'student', NULL);
+INSERT INTO `user` (`id`, `username`, `password`, `email`, `phone`, `avatar`, `create_time`, `update_time`, `role`, `display_name`) VALUES (3, 'chyinan', '$2b$10$LeimjP0GK2OC9DObsO9WvuvHdksCwQsXNVA3uHNjIBadcuD3nBgb6', '1817175451@qq.com', NULL, 'avatar-3-1745847609124-586820353.png', '2025-02-20 21:51:36', '2025-04-28 21:40:09', 'student', NULL);
+INSERT INTO `user` (`id`, `username`, `password`, `email`, `phone`, `avatar`, `create_time`, `update_time`, `role`, `display_name`) VALUES (8, 'S2023001', '$2b$10$vvCCMqjv930BKa1I6IUYKeBt5HyDktViy/4unT.mQTAKfAHE1qczW', '1011@qq.com', '15876627199', NULL, '2025-06-04 22:48:28', '2025-06-06 15:11:42', 'student', '张伟');
 
 -- ----------------------------
 -- View structure for v_class_score_stats
