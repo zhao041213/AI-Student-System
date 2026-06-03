@@ -109,6 +109,7 @@ class CampusMcpToolServiceTest {
         Map<?, ?> firstScore = (Map<?, ?>) scores.get(0);
         assertThat(firstScore.get("subject")).isEqualTo("Math");
         assertThat(firstScore.get("score")).isEqualTo(new BigDecimal("95.5"));
+        assertThat(firstScore.containsKey("studentInternalId")).isFalse();
     }
 
     @Test

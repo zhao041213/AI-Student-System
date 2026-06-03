@@ -142,8 +142,6 @@ public class CampusMcpToolService {
 
     private Map<String, Object> scoreRow(Score score) {
         Map<String, Object> row = new HashMap<>();
-        row.put("id", score.getId());
-        row.put("studentInternalId", score.getStudentId());
         row.put("examId", score.getExamId());
         row.put("subject", score.getSubject());
         row.put("score", score.getScore());
