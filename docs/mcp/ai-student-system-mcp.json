@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ai-student-system": {
+      "command": "java",
+      "args": [
+        "-jar",
+        "D:/AI-Student-System/java-backend/target/ikun-manager-backend-1.0.0.jar",
+        "--spring.profiles.active=mcp"
+      ]
+    }
+  }
+}
